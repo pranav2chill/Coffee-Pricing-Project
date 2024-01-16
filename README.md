@@ -36,8 +36,7 @@ The analysis is based on a dataset containing 5,746 entries of daily coffee pric
 **Key Findings:**
 - Price distributions vary over time.
 - Strong correlations among Open, High, Low, and Close prices.
-- ![coorelation heatmap](https://github.com/pranav2chill/Coffee-Pricing-Project/assets/124155951/dbc31f17-6dc1-45c9-85c0-72663cede8a0)
-
+ ![coorelation heatmap](https://github.com/pranav2chill/Coffee-Pricing-Project/assets/124155951/dbc31f17-6dc1-45c9-85c0-72663cede8a0)
 - Time series analysis reveals patterns in closing prices and price differences.
 ![Time series closing price](https://github.com/pranav2chill/Coffee-Pricing-Project/assets/124155951/8f51591a-3072-4948-9437-727263861fd1)
 ![time series price doff](https://github.com/pranav2chill/Coffee-Pricing-Project/assets/124155951/ee08dbbc-8943-4626-8a5f-1dd5fc8ecedd)
