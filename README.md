@@ -10,6 +10,23 @@ This project focuses on the dynamic global coffee market, leveraging historical 
 The dataset, titled `coffee.csv`, comprises 5,746 entries, featuring columns like Date, Open, High, Low, Close, Volume, and Currency. The Date column has been formatted for time series analysis.
 
 ## Exploratory Data Analysis (EDA)
+The analysis is based on a dataset containing 5,746 entries of daily coffee prices. Here is a brief overview of the data attributes:
+
+- **Date**: Ranges from [start_date] to [end_date]
+- **Open**: Average opening price is 127.27 with a standard deviation of 50.57
+- **High**: Average highest price is 128.85 with a standard deviation of 51.16
+- **Low**: Average lowest price is 125.78 with a standard deviation of 49.85
+- **Close**: Average closing price is 127.22 with a standard deviation of 50.51
+- **Volume**: Average traded volume is 8,807 units with a standard deviation of 9,613
+
+**Histograms**: We plotted histograms for Open, High, Low, Close, and Volume to understand the distribution of the data.
+![EDA 2](https://github.com/pranav2chill/Coffee-Pricing-Project/assets/124155951/7d4ad0c9-89f1-4f9b-8cd5-9985bf615387)
+![EDA 1](https://github.com/pranav2chill/Coffee-Pricing-Project/assets/124155951/6a2a8eec-b40d-4d8b-ad4d-e64d67ca72cc)
+![EDA 5](https://github.com/pranav2chill/Coffee-Pricing-Project/assets/124155951/78ec735a-f102-4612-9bed-7a312d6b7f69)
+![EDA 4](https://github.com/pranav2chill/Coffee-Pricing-Project/assets/124155951/92d7762b-87b8-497c-85c5-9bde6bb43e4a)
+![EDA 3](https://github.com/pranav2chill/Coffee-Pricing-Project/assets/124155951/41fdfa22-edff-46d0-95ee-988f1126b9dd)
+
+
 **Key Findings:**
 - Price distributions vary over time.
 - Strong correlations among Open, High, Low, and Close prices.
@@ -46,6 +63,7 @@ The project demonstrates the effective use of machine learning in forecasting co
 - Detailed machine learning model outputs and code excerpts.
 
 ---
+
 
 *This report was compiled using Python for data analysis and machine learning, with a focus on practical application in the coffee market.*
 
