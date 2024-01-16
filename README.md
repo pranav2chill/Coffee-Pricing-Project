@@ -60,8 +60,12 @@ The analysis is based on a dataset containing 5,746 entries of daily coffee pric
 ![Model Comparison MAE](https://github.com/pranav2chill/Coffee-Pricing-Project/assets/124155951/b1c43584-d8ed-4795-a0ab-8d721a66cf3e)
 ![model comparison RMSE](https://github.com/pranav2chill/Coffee-Pricing-Project/assets/124155951/ca4730db-06c6-4cc3-b1ef-137ef8ff7bbe)
 
-## Results and Discussion
-Linear Regression is identified as the optimal model for its accuracy and computational efficiency. It effectively captures the price trends, as indicated by its residuals and predictions.
+## Comparative Analysis
+- Comparing the model evaluation metrics, Linear Regression has the lowest RMSE and MAE, suggesting it has the best performance among the four.
+Decision Tree has the highest RMSE and MAE, indicating it might not be the best model for this particular forecasting task.
+In summary, if we prioritize accuracy and generalization, Linear Regression and Gradient Boosting appear to be the most suitable models, with Gradient Boosting having a slight edge in capturing complex patterns in the data. The Decision Tree model, while inherently interpretable, may not capture the nuances in the data as well as the other models. The Random Forest model offers a balance between the simplicity of Linear Regression and the complexity handled by Gradient Boosting, but still doesn't outperform Linear Regression in this instance.
+
+- The choice of the model could depend on the specific use case: if interpretability is key, Decision Tree might be chosen despite its lower accuracy, whereas for pure prediction performance, Linear Regression or Gradient Boosting would be preferred. It's also worth noting that the performance could potentially be improved by tuning the hyperparameters, adding more features, or even ensemble methods to combine the strengths of multiple models.
 
 ## Recommendations
 Based on our findings:
