@@ -14,23 +14,33 @@ The analysis is based on a dataset containing 5,746 entries of daily coffee pric
 
 - **Date**: Ranges from [start_date] to [end_date]
 - **Open**: Average opening price is 127.27 with a standard deviation of 50.57
+  ![EDA 1](https://github.com/pranav2chill/Coffee-Pricing-Project/assets/124155951/d1daa834-d204-458c-8e36-046a698bdae6)
+
 - **High**: Average highest price is 128.85 with a standard deviation of 51.16
+  ![EDA 2](https://github.com/pranav2chill/Coffee-Pricing-Project/assets/124155951/40c08a39-8e40-4aee-9df1-d91de958272a)
+
 - **Low**: Average lowest price is 125.78 with a standard deviation of 49.85
+  ![EDA 3](https://github.com/pranav2chill/Coffee-Pricing-Project/assets/124155951/59ca4029-2e56-4bc3-aa52-559363f2ee0b)
+
 - **Close**: Average closing price is 127.22 with a standard deviation of 50.51
+  ![EDA 4](https://github.com/pranav2chill/Coffee-Pricing-Project/assets/124155951/200ea87b-4c47-47c9-ba39-5e87c94adf84)
+
 - **Volume**: Average traded volume is 8,807 units with a standard deviation of 9,613
+  ![EDA 5](https://github.com/pranav2chill/Coffee-Pricing-Project/assets/124155951/1f5e4b95-a707-4123-b1e3-fbc517e6a647)
+
 
 **Histograms**: We plotted histograms for Open, High, Low, Close, and Volume to understand the distribution of the data.
-![EDA 2](https://github.com/pranav2chill/Coffee-Pricing-Project/assets/124155951/7d4ad0c9-89f1-4f9b-8cd5-9985bf615387)
-![EDA 1](https://github.com/pranav2chill/Coffee-Pricing-Project/assets/124155951/6a2a8eec-b40d-4d8b-ad4d-e64d67ca72cc)
-![EDA 5](https://github.com/pranav2chill/Coffee-Pricing-Project/assets/124155951/78ec735a-f102-4612-9bed-7a312d6b7f69)
-![EDA 4](https://github.com/pranav2chill/Coffee-Pricing-Project/assets/124155951/92d7762b-87b8-497c-85c5-9bde6bb43e4a)
-![EDA 3](https://github.com/pranav2chill/Coffee-Pricing-Project/assets/124155951/41fdfa22-edff-46d0-95ee-988f1126b9dd)
+
 
 
 **Key Findings:**
 - Price distributions vary over time.
 - Strong correlations among Open, High, Low, and Close prices.
+- ![coorelation heatmap](https://github.com/pranav2chill/Coffee-Pricing-Project/assets/124155951/dbc31f17-6dc1-45c9-85c0-72663cede8a0)
+
 - Time series analysis reveals patterns in closing prices and price differences.
+![Time series closing price](https://github.com/pranav2chill/Coffee-Pricing-Project/assets/124155951/8f51591a-3072-4948-9437-727263861fd1)
+![time series price doff](https://github.com/pranav2chill/Coffee-Pricing-Project/assets/124155951/ee08dbbc-8943-4626-8a5f-1dd5fc8ecedd)
 
 ## Methodology
 **Machine Learning Models:**
