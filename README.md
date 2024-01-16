@@ -66,8 +66,7 @@ The analysis is based on a dataset containing 5,746 entries of daily coffee pric
   ![time series forcasting gradient boosting](https://github.com/pranav2chill/Coffee-Pricing-Project/assets/124155951/1d552443-d806-42c9-8ebf-1bf9081789c7)
 
 - **Model Comparison**:
-![Model Comparison MAE](https://github.com/pranav2chill/Coffee-Pricing-Project/assets/124155951/b1c43584-d8ed-4795-a0ab-8d721a66cf3e)
-![model comparison RMSE](https://github.com/pranav2chill/Coffee-Pricing-Project/assets/124155951/ca4730db-06c6-4cc3-b1ef-137ef8ff7bbe)
+![Model Comparison MAE](https://github.com/pranav2chill/Coffee-Pricing-Project/assets/124155951/b1c43584-d8ed-4795-a0ab-8d721a66cf3e) ![model comparison RMSE](https://github.com/pranav2chill/Coffee-Pricing-Project/assets/124155951/ca4730db-06c6-4cc3-b1ef-137ef8ff7bbe)
 
 ## Comparative Analysis
 - Comparing the model evaluation metrics, Linear Regression has the lowest RMSE and MAE, suggesting it has the best performance among the four.
