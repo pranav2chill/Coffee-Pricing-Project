@@ -3,8 +3,8 @@
 ## Executive Summary
 This report analyzes and forecasts coffee prices using historical data and machine learning models, aimed at providing actionable insights for the coffee market's stakeholders.
 
-## Introduction
-This project focuses on the dynamic global coffee market, leveraging historical price data to predict future trends with machine learning techniques.
+## Problem Statement
+In the dynamic and volatile coffee market, accurate price forecasting is crucial for stakeholders to make informed decisions. However, predicting coffee prices is challenging due to the complexity of market factors. The objective is to develop a model that can provide reliable predictions of coffee closing prices to assist in market analysis and decision-making.
 
 ## Data Overview
 The dataset, titled `coffee.csv`, comprises 5,746 entries, featuring columns like Date, Open, High, Low, Close, Volume, and Currency. The Date column has been formatted for time series analysis.
@@ -85,12 +85,12 @@ Based on our findings:
 3. **Regular Model Updates** with the latest data are crucial for maintaining prediction accuracy.
 
 ## Conclusion
-The project demonstrates the effective use of machine learning in forecasting coffee prices, with Linear Regression as the standout model. However, it's crucial to keep refining the model in response to market changes.
+Based on the analysis of the model performances, the Linear Regression model has demonstrated the most consistent predictive accuracy with the lowest RMSE and MAE, suggesting its robustness for this particular dataset. While the Gradient Boosting Regressor has shown potential in capturing complex patterns and providing slightly more accurate predictions in certain instances, it may require more computational resources. The results indicate that, for stakeholders prioritizing a balance of performance and resource efficiency, the Linear Regression model is an optimal choice for forecasting coffee closing prices. Further improvements could be explored through model tuning and incorporating additional predictive features or external market data.
 
-## Appendices
-- Supplementary charts and data tables.
-- Detailed machine learning model outputs and code excerpts.
-
+## Further Questions
+- How might incorporating global economic indicators or coffee market-specific news sentiment improve the predictive accuracy of the models?
+- Would a deep learning approach capture complex patterns better, especially considering possible non-linear relationships in the data?
+- How do external factors like weather patterns in major coffee-producing regions affect the predictive accuracy, and can these be quantified and included in the models?
 ---
 
 
