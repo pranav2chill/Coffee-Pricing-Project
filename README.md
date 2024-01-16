@@ -54,9 +54,18 @@ The analysis is based on a dataset containing 5,746 entries of daily coffee pric
 
 ## Model Evaluation
 - **Linear Regression**: Achieved an RMSE of 0.0646 and an MAE of 0.0456.
+  ![time series forcasting lin reg](https://github.com/pranav2chill/Coffee-Pricing-Project/assets/124155951/6795473f-760f-44ef-aaaf-194b1564fc0b)
+
 - **Decision Tree Regressor**: Yielded an RMSE of 0.0840 and an MAE of 0.0605.
+  ![Time Series Forcasting Decision Tree](https://github.com/pranav2chill/Coffee-Pricing-Project/assets/124155951/9fb5d663-eaed-484b-9498-a4bbe6bb481d)
+
 - **Random Forest Regressor**: Resulted in an RMSE of 0.0762 and an MAE of 0.0550.
+  ![time series forcasting random forests](https://github.com/pranav2chill/Coffee-Pricing-Project/assets/124155951/7152fb91-d091-4a84-9bcb-954338b3a6f0)
+
 - **Gradient Boosting Regressor**: Obtained an RMSE of 0.0681 and an MAE of 0.0482.
+  ![time series forcasting gradient boosting](https://github.com/pranav2chill/Coffee-Pricing-Project/assets/124155951/1d552443-d806-42c9-8ebf-1bf9081789c7)
+
+- **Model Comparison**:
 ![Model Comparison MAE](https://github.com/pranav2chill/Coffee-Pricing-Project/assets/124155951/b1c43584-d8ed-4795-a0ab-8d721a66cf3e)
 ![model comparison RMSE](https://github.com/pranav2chill/Coffee-Pricing-Project/assets/124155951/ca4730db-06c6-4cc3-b1ef-137ef8ff7bbe)
 
