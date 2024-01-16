@@ -53,7 +53,12 @@ The analysis is based on a dataset containing 5,746 entries of daily coffee pric
 - Scaling and imputation for data normalization.
 
 ## Model Evaluation
-Models were assessed using RMSE and MAE. Linear Regression exhibited the highest accuracy, with the lowest RMSE and MAE values.
+- **Linear Regression**: Achieved an RMSE of 0.0646 and an MAE of 0.0456.
+- **Decision Tree Regressor**: Yielded an RMSE of 0.0840 and an MAE of 0.0605.
+- **Random Forest Regressor**: Resulted in an RMSE of 0.0762 and an MAE of 0.0550.
+- **Gradient Boosting Regressor**: Obtained an RMSE of 0.0681 and an MAE of 0.0482.
+![Model Comparison MAE](https://github.com/pranav2chill/Coffee-Pricing-Project/assets/124155951/b1c43584-d8ed-4795-a0ab-8d721a66cf3e)
+![model comparison RMSE](https://github.com/pranav2chill/Coffee-Pricing-Project/assets/124155951/ca4730db-06c6-4cc3-b1ef-137ef8ff7bbe)
 
 ## Results and Discussion
 Linear Regression is identified as the optimal model for its accuracy and computational efficiency. It effectively captures the price trends, as indicated by its residuals and predictions.
